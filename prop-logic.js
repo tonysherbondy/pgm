@@ -59,7 +59,7 @@ var drag_line = svg.append('svg:path')
   .attr('class', 'link dragline hidden')
   .attr('d', 'M0,0L0,0');
 
-// handles to link and node element groups
+// handles to all link and node element groups
 var path = svg.append('svg:g').selectAll('path'),
     circle = svg.append('svg:g').selectAll('g');
 
