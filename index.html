@@ -1,12 +1,33 @@
 <html>
   <head>
     <title>PGMs for fun and profit!</title>
-    <link rel="stylesheet" href="app.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="prop-logic.css" media="screen" title="no title" charset="utf-8">
   </head>
   <body>
 
+  <svg></svg>
+
+  <p>
+    Click in the open space to add a node, drag from one node to another to add an edge.
+  </p>
+  <p>
+    drag-mode-drag a node to move the graph layout.
+  </p>
+  <p>
+    Click a node or an edge to select it.
+  </p>
+  <p>
+    When a node is selected: R toggles reflexivity, Delete removes the node.
+  </p>
+  <p>
+    When an edge is selected: L(eft), R(ight), B(oth) change direction, Delete removes the edge.
+  </p>
+  <p>
+    To see this example as part of a larger project, check out <a href="http://rkirsling.github.com/modallogic/">Modal Logic Playground!</a>
+  </p>
+
   <script src="http://d3js.org/d3.v3.min.js"></script>
-  <script src="app.js"></script>
+  <script src="prop-logic.js"></script>
 
   </body>
 </html>
